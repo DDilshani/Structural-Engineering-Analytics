@@ -9,7 +9,7 @@ The main ML project predicts UHPFRC compressive strength. Each machine-learning 
 Place the Excel dataset here:
 
 ```text
-projects/uhpfrc-compressive-strength/data/raw/final200.xlsx
+projects/uhpfrc-compressive-strength/data/raw/uhpfrc_compressive_strength_database.xlsx
 ```
 
 Target:
@@ -133,6 +133,17 @@ The `supporting-analysis/` folder contains the non-ML research coding:
 - mesh sensitivity; and
 - generic paired-column Excel plotting.
 
+
+## Run All Analyses
+
+After placing the datasets in the `data/` folders, execute:
+
+```bash
+python run_all_analyses.py
+```
+
+The master runner checks whether each input file exists, executes the matching analysis scripts, and skips analyses whose input files are missing.
+
 ## Setup
 
 ```bash
@@ -146,4 +157,3 @@ Run tests:
 ```bash
 pytest -q
 ```
-

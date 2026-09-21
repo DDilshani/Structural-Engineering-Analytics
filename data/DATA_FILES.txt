@@ -1,0 +1,19 @@
+ml/
+  uhpfrc_compressive_strength_database.xlsx
+
+experimental/
+  beam_moment_curvature_results.xlsx
+  beam_load_displacement_ductility.xlsx
+  beam_experimental_load_displacement.xlsx
+  control_beam_strain_results.xlsx
+  beam_strain_response_results.xlsx
+  retrofitted_beam_load_displacement.xlsx
+
+finite_element/
+  experimental_numerical_validation.xlsx
+  concrete_damage_plasticity_properties.xlsx
+  finite_element_mesh_sensitivity.xlsx
+
+raw_test_data/
+  experimental_displacement_channels.csv
+  experimental_load_strain_channels.csv
